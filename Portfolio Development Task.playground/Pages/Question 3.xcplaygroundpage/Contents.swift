@@ -21,6 +21,17 @@
  
  */
 // Answer question 3 below
+let hairDonationAmout : Double = 55.75
+print("The amount for each donation is not going to change.")
+let runTrainingDonationAmout : Double = 15.35
+print("The amount for each donation is not going to change since it is immutable.")
+var headShavedCount = 12
+print("The number of students will change, there will be more or less students in this challenge.")
+var runTrainingCount = 73
+print("The number of students will change because the value is mutable")
+var totalDonationAmount = hairDonationAmout * Double(headShavedCount) + runTrainingDonationAmout * Double(runTrainingCount)
+print("The total amount will change because the number of count will change")
+
 
 /*:
  ## Now share your understanding
