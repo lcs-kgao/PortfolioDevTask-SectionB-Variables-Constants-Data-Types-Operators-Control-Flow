@@ -21,7 +21,14 @@
  
  */
 // Answer question 2 below
-
+let dateOfMeasurement = 1
+print("Date is an immutable value")
+var timeOfMeasurement = 1
+print("Time will change since it is mutable")
+var currentHeightInCentimetres = 50
+print("Current height of snow will change along with the change of time")
+let totalSnowfallSoFar = 100
+print("Total snowfall over entire year so far is immutable since it already happened and the value can't be changed.")
 /*:
  ## Now share your understanding
  
